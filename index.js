@@ -2,10 +2,11 @@ const express = require('express');
 
 let app = express();
 
-app.get('/', (req, res) => {
-    console.log('hello world');
-    res.send('reply: hello'); 
-});
+function handleGet(req, res) {
+    res.send('hello world'); 
+}
+
+app.get('/', handleGet);
 
 app.listen(8080, () => {
     console.log('Server running on port 8080...');
