@@ -1,0 +1,24 @@
+{
+  "name": "stk-backend",
+  "version": "1.0.0",
+  "description": "The MPesa STK backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adekorir/stk-backend.git"
+  },
+  "keywords": [
+    "mpesa",
+    "stk",
+    "daraja"
+  ],
+  "author": "adekorir GAN-007",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adekorir/stk-backend/issues"
+  },
+  "homepage": "https://github.com/adekorir/stk-backend#readme"
+}
